@@ -1,0 +1,141 @@
+* using log directory ‘/Users/james/Documents/Code/R_Packages/tReebin/tReebin.Rcheck’
+* using R version 3.6.1 (2019-07-05)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘tReebin/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘tReebin’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘tReebin’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: ‘dplyr’
+* checking S3 generic/method consistency ... WARNING
+summary:
+  function(object, ...)
+summary.VariableBinning:
+  function(variableBinning, data, target, variable)
+
+plot:
+  function(x, ...)
+plot.VariableBinning:
+  function(variableBinning, data)
+
+predict:
+  function(object, ...)
+predict.VariableBinning:
+  function(VariableBinning, data, variable)
+
+See section ‘Generic functions and methods’ in the ‘Writing R
+Extensions’ manual.
+
+Found the following apparent S3 methods exported but not registered:
+  plot.VariableBinning predict.VariableBinning summary.VariableBinning
+See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
+manual.
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+binContinuousVariable: no visible global function definition for ‘%>%’
+binContinuousVariable: no visible binding for global variable ‘Var’
+binContinuousVariable: no visible binding for global variable ‘Bin’
+binContinuousVariable: no visible binding for global variable ‘Target’
+binContinuousVariable: no visible global function definition for ‘n’
+binContinuousVariable: no visible global function definition for
+  ‘t.test’
+coarseClass: no visible global function definition for ‘%>%’
+coarseClass: no visible global function definition for ‘na.omit’
+coarseClass: no visible global function definition for ‘ctree_control’
+coarseClass: no visible global function definition for ‘ctree’
+coarseClass: no visible global function definition for ‘predict’
+coarseClass: no visible binding for global variable ‘.’
+coarseClass: no visible binding for global variable ‘Bin’
+coarseClass: no visible binding for global variable ‘Var’
+coarseClass: no visible binding for global variable ‘Target’
+coarseClass: no visible global function definition for ‘n’
+plot.VariableBinning: no visible global function definition for ‘%>%’
+plot.VariableBinning: no visible global function definition for
+  ‘mutate’
+plot.VariableBinning: no visible global function definition for
+  ‘predict’
+plot.VariableBinning: no visible binding for global variable ‘.’
+plot.VariableBinning: no visible binding for global variable ‘WOE’
+plot.VariableBinning: no visible global function definition for
+  ‘ggplot’
+plot.VariableBinning: no visible global function definition for ‘aes’
+plot.VariableBinning: no visible binding for global variable ‘Bin’
+plot.VariableBinning: no visible binding for global variable ‘colour’
+plot.VariableBinning: no visible global function definition for
+  ‘geom_bar’
+plot.VariableBinning: no visible global function definition for
+  ‘theme_bw’
+plot.VariableBinning: no visible global function definition for ‘labs’
+plot.VariableBinning: no visible global function definition for ‘lims’
+plot.VariableBinning: no visible global function definition for ‘theme’
+plot.VariableBinning: no visible global function definition for
+  ‘element_text’
+predict.VariableBinning: no visible global function definition for
+  ‘%>%’
+predict.VariableBinning: no visible global function definition for
+  ‘mutate’
+predict.VariableBinning: no visible binding for global variable ‘Var’
+woeTable: no visible global function definition for ‘%>%’
+woeTable: no visible binding for global variable ‘Var’
+woeTable: no visible global function definition for ‘n’
+woeTable: no visible binding for global variable ‘Target’
+woeTable: no visible binding for global variable ‘Bad’
+woeTable: no visible binding for global variable ‘Good’
+woeTable: no visible binding for global variable ‘WOE’
+Undefined global functions or variables:
+  %>% . Bad Bin Good Target Var WOE aes colour ctree ctree_control
+  element_text geom_bar ggplot labs lims mutate n na.omit predict
+  t.test theme theme_bw
+Consider adding
+  importFrom("stats", "na.omit", "predict", "t.test")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘binContinuousVariable’ ‘coarseClass’ ‘plot.VariableBinning’
+  ‘predict.VariableBinning’ ‘summary.VariableBinning’ ‘woeTable’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* DONE
+Status: 4 WARNINGs, 1 NOTE

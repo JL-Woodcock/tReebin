@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588443187956.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1721832702",
+    "id" : "DE9296C9",
+    "lastKnownWriteTime" : 1588533204,
+    "last_content_update" : 1588533204905,
+    "path" : "~/Documents/Code/R_Packages/tReebin/tReebin/R/variable.binning.R",
+    "project_path" : "R/variable.binning.R",
+    "properties" : {
+        "cursorPosition" : "67,46",
+        "scrollLine" : "52",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
